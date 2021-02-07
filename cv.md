@@ -9,7 +9,6 @@
 4. Skills: c++; java; javascript; node.js; postgreSQL; python; mongoDB; HTML; CSS; SASS; GIT.
 5. Examples of the code:
    **JavaScript:**
-
 ```
 function squareDigits(num) {
   return +(numMy level of English + "")
@@ -32,4 +31,8 @@ function factorial(n) {
   else return n * factorial(n - 1);
 }
 ```
+6. There are no projects.
+7. I have a higher education (Vitebsk State University named after P.M. Masherov, specialty "Applied Mathematics", 2012). I am a candidate of physical and math sciences.
+8. My level of English is A2.
+
 
