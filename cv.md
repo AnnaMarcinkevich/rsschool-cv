@@ -8,6 +8,7 @@
    Self-improvement and self-education in various spheres of my work has always been a priority for me. I have experience as a leacturer of math and programming at the university.
 4. Skills: c++; java; javascript; node.js; postgreSQL; python; mongoDB; HTML; CSS; SASS; GIT.
 5. Examples of the code:
+
    **JavaScript:**
 ```
 function squareDigits(num) {
