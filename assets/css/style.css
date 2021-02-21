@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #242424;
+  background-color: #e1ded9;
+}
+
+*,
+*::after,
+*::before { box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin: 0; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: auto;
+}
+
+header { background: #353541; }
+
+.header_info {
+  width: 260px;
+  align-self: flex-end;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-weight: 500;
+  color: #fff;
+}
+.header_name {
+  text-align: center;
+  font-size: 19px;
+  border-top: 3px solid #fb6470;
+  border-bottom: 3px solid #fb6470;
+}
+.header_job {
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+.container_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container_item:last-child {
+  flex-direction: column;
+}
+.container_item article { flex: 1; }
+
+.container_item article p {
+  margin: 0;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.foto {
+  width: 255px;
+  margin: 50px 0 0 0;
+  flex: 1;
+}
+.foto img { float: right; }
+
+.mytitle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.mytitle:after {
+  display: block;
+  width: 160px;
+  height: 3px;
+  content: "";
+  background-color: #fb6470;
+}
+
+.contacts {
+  width: 100%;
+  margin-top: 20px;
+  background: #fb64707c;
+}
+
+.university { margin-top: 20px; }
+
+.languages figure {
+  display: inline-block;
+  margin-right: 25px;
+}
+.languages figcaption {
+  width: 100%;
+  text-align: center;
+}
+
+.skills { columns: 2; }
+
+.codeblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.codeblock_item {
+  flex-grow: 1;
+  padding-left: 26px;
+  border: 1px dotted #fb64707c;
+}
+
+footer {
+  margin-top: 30px;
+  background: #353541;
+}
+.container_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container_footer figure { margin: 0 25px 0 0; }
+
+.container_footer h3 {
+  padding-top: 15px;
+  font-size: 15px;
+  color: white;
+}
+a:hover img {
+  border-top: solid white 3px;
+  border-bottom: solid white 3px;
+}
